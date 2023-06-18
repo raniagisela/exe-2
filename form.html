@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>DOM Javascript</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Data Informasi Konser Lana Del Rey</h3>
+        </div>
+        <form action="">
+            <label for="nama">Nama Lengkap</label><br>
+            <input type="text" placeholder="Nama anda" id="nama"><br><br>
+            <label for="nik">NIK</label><br>
+            <input type="text" placeholder="NIK anda" id="nik"><br>
+            <p>Pilih hari untuk konser:</p>
+            <input type="radio" name="hari" id="Jumat" value="Jumat">
+            <label for="Sabtu">Jumat</label><br>
+            <input type="radio" name="hari" id="Minggu" value="Minggu">
+            <label for="Minggu">Minggu</label><br>
+            <input type="radio" name="hari" id="Rabu" value="Rabu">
+            <label for="Senin">Rabu</label><br>
+            <input type="radio" name="hari" id="Kamis" value="Kamis">
+            <label for="Selasa">Kamis</label><br><br>
+            <label for="Seat">Seat</label><br>
+            <select id="Seat">
+                <option value="CAT1">CAT1</option>
+                <option value="CAT2">CAT2</option>
+                <option value="Festival">Festival</option>
+            </select><br><br>
+            <label for="alamat">Alamat</label><br>
+            <textarea placeholder="Tulis alamatmu disini" name="alamat" id="alamat" cols="30"
+                rows="5"></textarea><br><br>
+            <label for="tanggal">Tanggal</label><br>
+            <input type="date" id="tanggal"><br><br>
+            <button class="cool-button">Kirim</button>
+        </form>
+        
+        
+    </div>
+    <button class="back"> <a href="index.html"> Home </a></button>
+    <script src="script.js"></script>
+</body>
+
+</html>
